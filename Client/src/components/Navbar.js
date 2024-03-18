@@ -33,21 +33,6 @@ const Navbar = () => {
         return (
           <>
           <li className="nav-item">
-            <NavLink className="nav-link" exact to="/" activeClassName="active-link">Home</NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/preregistration" activeClassName="active-link">PreRegistration</NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/courseclash" activeClassName="active-link">CourseClash</NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/courses" activeClassName="active-link">Courses</NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/announcement" activeClassName="active-link">Announcement</NavLink>
-          </li>
-          <li className="nav-item">
             <NavLink className="nav-link" to="/login" activeClassName="active-link">Login</NavLink>
           </li>
           <li className="nav-item">
