@@ -2,7 +2,8 @@ const express=require('express');
 const jwt=require('jsonwebtoken');
 const router =express.Router();
 const bcrypt=require('bcryptjs');
-
+const cookieParser = require('cookie-parser');
+router.use(cookieParser());
 require('../db/conn');
 const authenticate= require("../middleware/authenticate");
 
